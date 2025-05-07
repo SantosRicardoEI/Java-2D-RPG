@@ -82,6 +82,19 @@ All passive bonuses scale using the square root of the attribute value, providin
 
 ---
 
+---
+
+## 🌍 Map System
+
+The project is designed to support **multiple game maps**, making it easy to expand the world and introduce new levels or zones.
+
+- New maps can be created by following the structure and template of the existing map.
+- By updating the file paths in the configuration, different maps can be loaded seamlessly.
+- Supports both **fixed spawns** (entities placed once) and **recurrent spawns** (entities that respawn periodically).
+- Spawn points (for players, enemies, objects) are automatically defined per map.
+
+This modular and scalable map system allows for straightforward world-building and future content expansion.
+
 ## 🎮 Controls
 
 | Key            | Action                                 |
